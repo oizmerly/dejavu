@@ -3,7 +3,8 @@
  * Proxy data to Splunk HEC
  */
 
-// The next constants should be replaced by your Splunk HEC properties
+// The next constants should be replaced by your Splunk HEC properties. 
+// See http://docs.splunk.com/Documentation/Splunk/latest/Data/UsetheHTTPEventCollector for details.
 define('HEC', 'https://localhost:8088/services/collector/event'); 
 define('TOKEN', 'DFDDB90F-2F43-4B98-BCAC-E80ADA712699');
 
